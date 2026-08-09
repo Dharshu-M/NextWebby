@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+
+  </head>
+  <body>
+<div class="container-fluid nav-first">
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand nav-head" href="#">LENSCRAFT</a>
+    <button
+      class="navbar-toggler text-white"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#navMenu"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-lg offcanvas-end"
+      tabindex="-1"
+      id="navMenu"
+      aria-labelledby="navMenuLabel"
+    >
+      <div class="offcanvas-header d-lg-none">
+        <h5 class="offcanvas-title nav-head" id="navMenuLabel">LENSCRAFT</h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-lg-row align-items-center w-100">
+        <ul class="navbar-nav mx-lg-auto text-end align-items-lg-center">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">HOME</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">SERVICE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+        </ul>
+        <a href="#" id="btn-carousel" class="btn rounded-pill ms-lg-auto mt-3 mt-lg-0">Book a Shoot</a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <div
+      class="carousel slide"
+      id="carouselExampleIndicators"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/pic1.jpg"
+            class="d-block w-100 carousel-img"
+            alt="pic1"
+          />
+          <div class="carousel-text">
+            <div class="carousel-heading">
+              <hr />
+              <h5 class="welcome">WELCOME</h5>
+              <span class="fs-1">CREATIVE PHOTOGRAPHY</span>
+              <hr />
+            </div>
+            <p class="carousel-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              lectus, venenatis sit amet egestas eget, aliquet a nisl.
+            </p>
+            <a href="#" class="btn btn-explore rounded-pill my-5"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/pic2.jpg"
+            class="d-block w-100 carousel-img"
+            alt="pic2"
+          />
+          <div class="carousel-text">
+            <div class="carousel-heading">
+              <hr />
+              <h5 class="welcome">WELCOME</h5>
+              <span>CREATIVE PHOTOGRAPHY</span>
+              <hr />
+            </div>
+            <p class="carousel-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              lectus, venenatis sit amet egestas eget, aliquet a nisl.
+            </p>
+            <a href="#" class="btn btn-explore rounded-pill my-5 py-3 px-3"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/pic3.jpg"
+            class="d-block w-100 carousel-img"
+            alt="pic3"
+          />
+          <div class="carousel-text">
+            <div class="carousel-heading">
+              <hr />
+              <h5 class="welcome">WELCOME</h5>
+              <span>CREATIVE PHOTOGRAPHY</span>
+              <hr />
+            </div>
+            <p class="carousel-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              lectus, venenatis sit amet egestas eget, aliquet a nisl.
+            </p>
+            <a href="#" class="btn btn-explore rounded-pill my-5 py-3 px-3"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/pic4.jpg"
+            class="d-block w-100 carousel-img"
+            alt="pic4"
+          />
+          <div class="carousel-text">
+            <div class="carousel-heading">
+              <hr />
+              <h5 class="welcome">WELCOME</h5>
+              <span>CREATIVE PHOTOGRAPHY</span>
+              <hr />
+            </div>
+            <p class="carousel-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              lectus, venenatis sit amet egestas eget, aliquet a nisl.
+            </p>
+            <a href="#" class="btn btn-explore rounded-pill my-5 py-3 px-3"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/pic5.jpg"
+            class="d-block w-100 carousel-img"
+            alt="pic5"
+          />
+          <div class="carousel-text">
+            <div class="carousel-heading">
+              <hr />
+              <h5 class="welcome">WELCOME</h5>
+              <span>CREATIVE PHOTOGRAPHY</span>
+              <hr />
+            </div>
+            <p class="carousel-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
+              lectus, venenatis sit amet egestas eget, aliquet a nisl.
+            </p>
+            <a href="#" class="btn btn-explore rounded-pill my-5 py-3 px-3"
+              >Explore More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <div class="row g-0">
+        <div class="col-lg-7 col-md-12 ab-t">
+          <div class="about-text">
+            <div class="line-text reveal reveal-up">
+              <h5 class="history">HISTORY</h5>
+              <hr />
+            </div>
+            <h1 class="about-txt pt-2 reveal reveal-up">About Our Agency</h1>
+            <hr class="bottom-line reveal reveal-up" />
+            <p class="about-para reveal reveal-up">
+              Founded with a passion for storytelling through the lens,
+              LensCraft began as a small home studio and has grown into a
+              full-service photography studio trusted by hundreds of clients. We
+              believe every photograph should capture more than a moment — it
+              should capture a feeling.
+            </p>
+
+            <div class="check-list">
+              <div class="check-item reveal reveal-up">
+                <div class="circle">
+                  <i class="bi bi-check-all"></i>
+                </div>
+                <h5 class="circle-text">Experienced Photographers</h5>
+              </div>
+              <div class="check-item reveal reveal-up">
+                <div class="circle">
+                  <i class="bi bi-check-all"></i>
+                </div>
+                <h5 class="circle-text">Professional Equipment</h5>
+              </div>
+              <div class="check-item reveal reveal-up">
+                <div class="circle">
+                  <i class="bi bi-check-all"></i>
+                </div>
+                <h5 class="circle-text">Timely Delivery</h5>
+              </div>
+            </div>
+          </div>
+          <div class="about-btn reveal reveal-up">
+            <button class="btn-1 rounded-pill fs-4">Book a Demo</button>
+            <button class="btn-1 rounded-pill fs-4" id="btn-1">contact</button>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12 ab-img">
+          <img class="abt-img reveal reveal-up" src="images/abt.jpg" alt="about picture" />
+        </div>
+      </div>
+    </div>
+
+    <div class="help">
+      <div class="help-header reveal reveal-up">
+        <div class="help-top-header">
+          <small class="service">SERVICES</small>
+          <hr class="absolute" />
+        </div>
+        <h1 class="help-head fs-1">How We Help You</h1>
+        <hr class="bottom-line" />
+      </div>
+    </div>
+
+    <div class="shape">
+
+      <div class="u-shape-left">
+        <div class="u-left-bg">
+          <div class="d-inline-flex">
+            <img class="u-img1 rounded-circle reveal reveal-left" src="images/pic6.jpg" alt="Nature Photography">
+            <div class="text-white u-head reveal reveal-left">
+              <h1 class="fs-1 pink">NATURE PHOTOGRAPHY</h1>
+              <p class="u-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat fermentum urna, sed gravida enim eleifend vitae. Ut rhoncus non metus at convallis. Maecenas pharetra placerat mauris. Phasellus quis egestas dui. Nullam ornare consectetur rhoncus. Praesent elit mauris, feugiat quis convallis et, egestas a tellus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="u-shape-right">
+        <div class="u-right-bg">
+          <div class="d-inline-flex">
+            <div class="text-white u-headr reveal reveal-right">
+              <h1 class="fs-1 h pink">CORPORATE EVENTS</h1>
+              <p class="u-parar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat fermentum urna, sed gravida enim eleifend vitae. Ut rhoncus non metus at convallis. Maecenas pharetra placerat mauris. Phasellus quis egestas dui. Nullam ornare consectetur rhoncus. Praesent elit mauris, feugiat quis convallis et, egestas a tellus.</p>
+            </div>
+            <img class="u-img1r rounded-circle reveal reveal-right" src="images/pic7.jpg" alt="Corporate Events">
+          </div>
+        </div>
+      </div>
+
+      <div class="u-shape-left">
+        <div class="u-left-bg">
+          <div class="d-inline-flex u-content">
+            <img class="u-img1 rounded-circle reveal reveal-left" src="images/pic8.webp" alt="Wedding Photography">
+            <div class="text-white u-head reveal reveal-left">
+              <h1 class="fs-1 pink">WEDDING PHOTOGRAPHY</h1>
+              <p class="u-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat fermentum urna, sed gravida enim eleifend vitae. Ut rhoncus non metus at convallis. Maecenas pharetra placerat mauris. Phasellus quis egestas dui. Nullam ornare consectetur rhoncus. Praesent elit mauris, feugiat quis convallis et, egestas a tellus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="part">
+      <div class="part-head reveal reveal-up">
+        <h1 class="fs-1 part-h">WANT TO BE A PART</h1>
+        <p class="part-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat lectus, venenatis sit amet egestas eget, aliquet a nisl.</p>
+        <form class="form">
+          <input type="email" class="rounded-pill" placeholder="Enter your Email">
+          <button type="submit" class="rounded-pill">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="display container">
+      <div class="display-header reveal reveal-up">
+        <div class="display-h">
+          <span>MODELS</span>
+          <hr class="display-hr">
+        </div>
+        <h1 class="text-white ps-4">Meet Our Models</h1>
+        <hr class="display-bottom">
+      </div>
+
+      <div class="row row-1 pt-5">
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row1.webp" alt="Row 1">
+            <div class="card-caption">Caption 1</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row2.webp" alt="Row 2">
+            <div class="card-caption">Caption 2</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row3.jpg" alt="Row 3">
+            <div class="card-caption">Caption 3</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row4.jpg" alt="Row 4">
+            <div class="card-caption">Caption 4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-2">
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row5.webp" alt="Row 5">
+            <div class="card-caption">Caption 5</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row6.webp" alt="Row 6">
+            <div class="card-caption">Caption 6</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row7.webp" alt="Row 7">
+            <div class="card-caption">Caption 7</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card reveal reveal-up">
+            <img src="images/row8.webp" alt="Row 8">
+            <div class="card-caption">Caption 8</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer reveal reveal-up">
+      <div class="footer-logo">
+        <span>LENSCRAFT</span>
+      </div>
+
+      <div class="footer-socials">
+        <a href="#" class="social-circle"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="social-circle"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="social-circle"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="social-circle"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var revealEls = document.querySelectorAll(".reveal");
+
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+            }
+          });
+        });
+
+        revealEls.forEach(function (el) {
+          observer.observe(el);
+        });
+      });
+    </script>
+  </body>
+</html>

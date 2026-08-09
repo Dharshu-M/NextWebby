@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mugbeans</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style/design.css" />
+</head>
+<body>
+
+  <div class="top-container">
+    <a href="#" class="corner-brand navbar-brand position-fixed top-0 start-0 m-4 d-flex align-items-center gap-2 z-3">
+      <div class="logo-head">
+        <i class="bi bi-cup-hot-fill fs-1"></i>
+        <span class="fs-1">Mug<span class="fs-1 logo">beans</span></span>
+      </div>
+    </a>
+
+    <button
+      class="side-btn btn rounded-circle position-fixed top-0 end-0 m-4 z-3 d-flex align-items-center justify-content-center"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#mugbeansMenu"
+      aria-controls="mugbeansMenu"
+    >
+      <i class="bi bi-list"></i>
+    </button>
+  </div>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="mugbeansMenu" aria-labelledby="mugbeansMenuLabel">
+    <div class="offcanvas-header pt-4 px-4">
+      <h5 class="offcanvas-title visually-hidden" id="mugbeansMenuLabel">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column justify-content-between px-4 pb-4">
+      <ul class="nav flex-column side-links">
+        <li class="nav-item"><a class="nav-link" href="#">Home <i class="bi bi-arrow-right"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About <i class="bi bi-arrow-right"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Service <i class="bi bi-arrow-right"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Events <i class="bi bi-arrow-right"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu <i class="bi bi-arrow-right"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact <i class="bi bi-arrow-right"></i></a></li>
+      </ul>
+      <div>
+        <a href="#" class="btn book-btn rounded-pill w-100 mb-3">Book now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class=" welcome">
+    <div class="row">
+      <div class="col-lg-6 col-12 welcome-start">
+        <div class="initial-sec reveal">
+        <div class="badge rounded-pill w-b">Welcome to Mugbeans</div>
+       <h1 class="welcome-h">Book <span style="color:#D4A762;">MugBeans</span> For Your Dream Event</h1>
+        </div>
+        <div class="d-flex animationbutton reveal ">
+          <button class="hero-btn-primary">Book Now</button>
+          <button class="hero-btn-secondary">Know More</button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 about-img reveal">
+        <img src="images/cafe1.png" alt="cafe" class="cafe1">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="">
+    <div class="row about-row">
+        <div class="col-lg-6 col-12 about-img  reveal">
+           <div class="img">
+            <img src="images/cafe2.jpg" class="cafe2 rounded-4" alt="pic">
+           </div>
+        </div>
+        <div class="col-lg-6 col-12 about-col about-animation reveal">
+            <div class="badge rounded-pill about-badge py-2">ABOUT US</div>
+            <h1 class="fs-1 about-text pt-3">Trusted By 200 + satisfied clients</h1>
+            <p class="about-para pt-3 fs-5">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor iesdein reprehendeerit in voluptate velit esse cillum dolore.</p>
+            <button class="btn about-btn rounded-pill fs-4 py-2 px-5 mt-4">About Us <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+  </div>
+
+  <div class="count-sec my-5 ">
+   <div class="row g-4 align-items-center count-aniamte reveal">
+    <div class="col-lg-8 col-12 ">
+      <div class="row row1 container">
+        <div class="col-4 count-sec1 box ms-4">
+          <i class="bi bi-people-fill display-2 text-white"></i>
+          <h1 id="counter1">0</h1>
+          <h6>HAPPY CUSTOMER</h6>
+        </div>
+        <div class="col-4 count-sec2 box">
+          <i class="bi bi-person-check display-2 text-white"></i>
+          <h1 id="counter2">0</h1>
+          <h6 class="text-center">EXPERT CUSTOMER</h6>
+        </div>
+        <div class="col-4 count-sec3 box">
+          <i class="bi bi-check display-1 text-white"></i>
+          <h1 id="counter3">0</h1>
+          <h6>EVENT COMPLETE</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-12">
+      <img src="images/cafe3.jpg" class="cafe3 rounded-4" alt="pic">
+    </div>
+  </div>
+</div>
+
+
+<div class="service">
+  <div class="badge rounded-pill">Our Services</div>
+  <h1 class="">what we offer</h1>
+</div>
+
+<div class="container service-grid mb-5">
+
+  <div class="row g-4 mb-4">
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-cake2-fill"></i>
+        </div>
+        <h4 class="service-title">Wedding Services</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-egg-fried"></i>
+        </div>
+        <h4 class="service-title">Corporate Catering</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-cup-straw"></i>
+        </div>
+        <h4 class="service-title">Cocktail Reception</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-basket2-fill"></i>
+        </div>
+        <h4 class="service-title">Bento Catering</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row g-4">
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-cup-fill"></i>
+        </div>
+        <h4 class="service-title">Pub Party</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-bicycle"></i>
+        </div>
+        <h4 class="service-title">Home Delivery</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-universal-access"></i>
+        </div>
+        <h4 class="service-title">Sit-down Catering</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="bi bi-basket3-fill"></i>
+        </div>
+        <h4 class="service-title">Buffet Catering</h4>
+        <p class="service-para">Contrary to popular belief, ipsum is not simply random.</p>
+        <button class="btn service-btn rounded-pill">Read More</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="gallery-section text-center">
+  <div class="badge rounded-pill">Latest Events</div>
+  <h1 class="gallery-heading pt-3">Our Social &amp; Professional Events Gallery</h1>
+
+  <div class="gallery-filters d-flex justify-content-center  gap-3 mb-5">
+    <button class="btn filter-btn active rounded-pill" data-filter="all">All Events</button>
+    <button class="btn filter-btn rounded-pill" data-filter="wedding">Wedding</button>
+    <button class="btn filter-btn rounded-pill" data-filter="corporate">Corporate</button>
+    <button class="btn filter-btn rounded-pill" data-filter="cocktail">Cocktail</button>
+    <button class="btn filter-btn rounded-pill" data-filter="buffet">Buffet</button>
+  </div>
+
+  <div class="container gallery-grid reveal">
+    <div class="row g-4">
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="buffet">
+        <img src="images/event1.webp" alt="BBQ grilling" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="cocktail">
+        <img src="images/event2.webp" alt="Plating food" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="corporate">
+        <img src="images/event3.jpg" alt="Corporate plating" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="wedding">
+        <img src="images/event4.jpg" alt="Wedding toast" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="buffet">
+        <img src="images/event5.jpg" alt="Guests dining" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="cocktail">
+        <img src="images/event6.jpg" alt="Appetizer spread" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="wedding">
+        <img src="images/event7.jpg" alt="Candlelit dinner" class="gallery-img">
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12 gallery-item" data-category="corporate">
+        <img src="images/event8.webp" alt="Chef grilling" class="gallery-img">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="food-section text-center">
+  <div class="badge rounded-pill">OUR MENU</div>
+  <h1 class=" pt-5 food-heading">Most Popular Food in the World</h1>
+
+  <div class="food-category d-flex justify-content-center  gap-3 mb-5">
+    <button class="btn filter-btn active rounded-pill" data-filter="all">main course</button>
+    <button class="btn filter-btn rounded-pill" data-filter="wedding">stater</button>
+    <button class="btn filter-btn rounded-pill" data-filter="corporate">drinks</button>
+    <button class="btn filter-btn rounded-pill" data-filter="cocktail">fries</button>
+    <button class="btn filter-btn rounded-pill" data-filter="buffet">our special</button>
+  </div>
+  
+
+<div class="container menu-grid reveal">
+
+  <div class="row menu-animate">
+    <div class="col-lg-6 col-12 d1">
+      <div class="menu-item">
+        <img src="images/food1.jpg" alt="Paneer" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top ">
+            <h5 class="menu-title ">Paneer</h5>
+            <span class="menu-price ">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-12 d2">
+      <div class="menu-item">
+        <img src="images/food2.webp" alt="Sweet Potato" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Sweet Potato</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row menu-animate">
+    <div class="col-lg-6 col-12 d3">
+      <div class="menu-item">
+        <img src="images/food3.jpg" alt="Sabudana Tikki" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Sabudana Tikki</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-12 d4">
+      <div class="menu-item">
+        <img src="images/food4.webp" alt="Pizza" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Pizza</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row menu-animate">
+    <div class="col-lg-6 col-12 d5">
+      <div class="menu-item">
+        <img src="images/food5.webp" alt="Bacon" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Bacon</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-12 d6">
+      <div class="menu-item">
+        <img src="images/food6.jpg" alt="Chicken" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Chicken</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row menu-animate">
+    <div class="col-lg-6 col-12 d7">
+      <div class="menu-item">
+        <img src="images/food7.jpg" alt="Blooming" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Blooming</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-12 d8">
+      <div class="menu-item">
+        <img src="images/food8.jpg" alt="Sweet" class="menu-img rounded-circle">
+        <div class="menu-content">
+          <div class="menu-top">
+            <h5 class="menu-title">Sweet</h5>
+            <span class="menu-price">$90</span>
+          </div>
+          <hr class="line">
+          <p class="menu-desc">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="book-us-section ">
+
+
+  <div class="book-us-card text-center">
+    <div class="badge rounded-pill">Book Us</div>
+    <h1 class="book-heading">Where you want Our Services</h1>
+
+    <form class="book-form">
+      <div class="row g-3 mb-3">
+        <div class="col-lg-4 col-12">
+          <select class="form-select book-input">
+            <option selected disabled>Select Country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-12">
+          <select class="form-select book-input">
+            <option selected disabled>Select City</option>
+            <option>Chennai</option>
+            <option>Madurai</option>
+            <option>Trichy</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-12">
+          <select class="form-select book-input">
+            <option selected disabled>Select Palace</option>
+            <option>Palace 1</option>
+            <option>Palace 2</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-3">
+        <div class="col-lg-4 col-12">
+          <select class="form-select book-input">
+            <option selected>Small Event</option>
+            <option>Medium Event</option>
+            <option>Large Event</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-12">
+          <select class="form-select book-input">
+            <option selected disabled>No. Of Palace</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-12">
+          <select class="form-select book-input">
+            <option selected>Vegetarian</option>
+            <option>Non-Vegetarian</option>
+            <option>Both</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row g-3 mb-4">
+        <div class="col-lg-4 col-12">
+          <input type="tel" class="form-control book-input" placeholder="Your Contact No.">
+        </div>
+        <div class="col-lg-4 col-12">
+          <input type="date" class="form-control book-input">
+        </div>
+        <div class="col-lg-4 col-12">
+          <input type="email" class="form-control book-input" placeholder="Enter Your Email">
+        </div>
+      </div>
+
+      <button type="submit" class="btn book-submit-btn rounded-pill">Submit Now</button>
+    </form>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-5">
+
+      <div class="col-lg-4 col-md-6 col-12 footer-brand-col">
+        <a href="#" class="footer-brand d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-cup-hot-fill fs-1"></i>
+          <span class="fs-1">Mug<span class="fs-1 logo">beans</span></span>
+        </a>
+        <p class="footer-about">
+          Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore, bringing warmth and flavor to every event we serve.
+        </p>
+        <div class="footer-social d-flex gap-3 mt-4">
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-pinterest"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-6 col-6">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Menu</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <h5 class="footer-heading">Our Services</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Wedding Services</a></li>
+          <li><a href="#">Corporate Catering</a></li>
+          <li><a href="#">Cocktail Reception</a></li>
+          <li><a href="#">Buffet Catering</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-12">
+        <h5 class="footer-heading">Contact Us</h5>
+        <ul class="footer-contact list-unstyled">
+          <li class="d-flex gap-2 mb-3">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span> Madurai, Tamil Nadu</span>
+          </li>
+          <li class="d-flex gap-2 mb-3">
+            <i class="bi bi-telephone-fill"></i>
+            <span>+91 2234545432</span>
+          </li>
+          <li class="d-flex gap-2 mb-3">
+            <i class="bi bi-envelope-fill"></i>
+            <span>hello@mugbeans.com</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="footer-copy mb-0">&copy; 2026 Mugbeans</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script>
+  function animateCounter(id, target, duration = 1500) {
+    const el = document.getElementById(id);
+    const startTime = performance.now();
+
+    function update(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const value = Math.floor(progress * target);
+
+      el.textContent = value;
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      } else {
+        el.textContent = target;
+      }
+    }
+
+    requestAnimationFrame(update);
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var revealEls = document.querySelectorAll(".reveal");
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+
+          if (entry.target.classList.contains("count-aniamte")) {
+            animateCounter('counter1', 250);
+            animateCounter('counter2', 120);
+            animateCounter('counter3', 350);
+          }
+
+          
+        }
+      });
+    }, { threshold: 0.2 });
+
+    revealEls.forEach(function (el) {
+      observer.observe(el);
+    });
+  });
+</script>
+</body>
+</html>

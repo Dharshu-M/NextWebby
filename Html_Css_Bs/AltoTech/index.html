@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alto Tech </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/website.css">
+  <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+<header>
+  <nav class="topbar">
+    <div class="brand">
+      <h1>Alto Tech</h1>
+    </div>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#siteMenu"
+      aria-controls="siteMenu"
+      aria-label="Open menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+</header>
+
+<div
+  class="offcanvas offcanvas-end site-menu"
+  tabindex="-1"
+  id="siteMenu"
+  aria-labelledby="siteMenuLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="siteMenuLabel">Menu</h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="menu-links">
+      <a href="#services" class="nav-link" data-bs-dismiss="offcanvas">Home</a>
+      <a href="#process" class="nav-link" data-bs-dismiss="offcanvas">Career</a>
+      <a href="#metrics" class="nav-link" data-bs-dismiss="offcanvas">Metrics</a>
+    </div>
+
+    <div class="menu-actions">
+      <a href="#" class="btn ">Log in</a>
+      <a href="#" class="btn1 text-decoration-none">Talk to us</a>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="dot-text"><span class="dot"></span> fullstack · product studio</div>
+        <h1 class="headline">From idea to production <br>with <span class="accent">one team.</span></h1>
+        <p class="lede">Alto Tech builds and ships full-stack applications—frontend, backend, APIs, and infrastructure. We pair design thinking with engineering rigor so you can focus on your business, not the stack.</p>
+        <div class="cta-row">
+          <a href="#" class="btn-primary">Start a project →</a>
+          <a href="#services" class="btn-sec">How we work</a>
+        </div>
+        <div class="trust-note">Trusted by fast-growing startups, fintechs, and healthtech companies to build their core platforms.</div>
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="tdot red"></span>
+          <span class="tdot yellow"></span>
+          <span class="tdot green"></span>
+          <span class="fname">dev · alto-cli</span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="prompt">$</span> <span class="l1">alto deploy --stack full</span></div>
+          <div><span class="muted l2">→ building frontend (React) ... </span><span class="ok">done</span></div>
+          <div><span class="muted l3">→ bundling API (Node.js + Python)</span></div>
+          <div><span class="accent l4">✓ release v2.6.0 · zero downtime</span><span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="strip">
+  <div class="strip-track">
+    <span>Full-stack development</span>
+    <span>API & microservices</span>
+    <span>React · Vue · Svelte</span>
+    <span>Node · Python · Go</span>
+    <span>Cloud-native deployments</span>
+    <span>Full-stack development</span>
+    <span>API & microservices</span>
+    <span>React · Vue · Svelte</span>
+    <span>Node · Python · Go</span>
+    <span>Cloud-native deployments</span>
+  </div>
+</div>
+
+<section class="hero-mid" id="services">
+  <div class="first">
+    <div class="mid-dot">
+    <span class="mdot"></span>
+    What we build </div>
+    <div class="mid-headline">Every layer, one accountable team</div>
+    <div id="mid-headline">You don't need five vendors. You need one team that owns the whole stack. Hover a card to see the numbers behind it.</div>
+  </div>
+  <div class="second">
+    <div class="outer" tabindex="0">
+      <div class="inner">
+        <div class="face front">
+          <div class="h1">Product Engineering</div>
+          <div class="p1">Full-stack web and mobile apps built on React, Vue, or Svelte front ends with Node, Python, or Go on the backend.</div>
+        </div>
+        <div class="face back">
+          <div>
+            <div class="stat">40+</div>
+            <div class="p-back">Products shipped to production, from MVP to Series B scale.</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="outer" tabindex="0">
+      <div class="inner">
+        <div class="face front">
+          <div class="h2">API & Systems Integration</div>
+          <div class="p2">REST and GraphQL APIs, third-party integrations, and microservices your product needs.</div>
+        </div>
+        <div class="face back">
+          <div>
+            <div class="stat">120+</div>
+            <div class="p-back">Third-party integrations built and maintained across client platforms.</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="outer" tabindex="0">
+      <div class="inner">
+        <div class="face front">
+          <div class="h3">Cloud Infrastructure</div>
+          <div class="p3">CI/CD pipelines and cloud-native infrastructure on AWS, GCP, or Azure — built for zero-downtime releases.</div>
+        </div>
+        <div class="face back">
+          <div>
+            <div class="stat">99.9%</div>
+            <div class="p-back">Average uptime SLA across production deployments we manage.</div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="outer" tabindex="0">
+      <div class="inner">
+        <div class="face front">
+          <div class="h4">Design & Product Strategy</div>
+          <div class="p4">We shape the roadmap, wireframe the flows, and stress-test the idea before a line of code gets written.</div>
+        </div>
+        <div class="face back">
+          <div>
+            <div class="stat">2 wks</div>
+            <div class="p-back">Average length of a discovery sprint before build begins.</div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero-process" id="process">
+  <div class="first2">
+    <div class="mid-dot">
+    <span class="mdot"></span>
+    How we work </div>
+    <div class="mid-headline">Ship fast without breaking things</div>
+    <div class="mid-sub">A four-step process refined across dozens of production launches.</div>
+  </div>
+  <div class="third">
+    <div class="mid-c1">
+      <div class="num">01</div>
+      <div class="body">
+        <div class="h1">Discover</div>
+        <div class="p1">We map your goals, users, and constraints in a focused kickoff sprint.</div>
+      </div>
+    </div>
+    <div class="mid-c1">
+      <div class="num">02</div>
+      <div class="body">
+        <div class="h2">Design</div>
+        <div class="p2">Wireframes and architecture decisions get validated with you before build begins.</div>
+      </div>
+    </div>
+    <div class="mid-c1">
+      <div class="num">03</div>
+      <div class="body">
+        <div class="h3">Build</div>
+        <div class="p3">Two-week sprints, shipped incrementally, with staging environments you can test anytime.</div>
+      </div>
+    </div>
+    <div class="mid-c1">
+      <div class="num">04</div>
+      <div class="body">
+        <div class="h4">Launch & Support</div>
+        <div class="p4">Zero-downtime deploys, monitoring, and a support retainer so you're never stuck post-launch.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero" id="metrics">
+  <div class="first2">
+    <div class="mid-dot">
+    <span class="mdot"></span>
+    By the numbers </div>
+    <div class="mid-headline">What clients actually get</div>
+    <div class="mid-sub">Live figures across every engagement we run.</div>
+  </div>
+  
+ 
+  <div class="grid">
+    <div class="card" >
+      <div class="top">
+        <span class="label">On-time delivery</span>
+        <span class="value">98%</span>
+      </div>
+      <div class="track">
+        <div class="progress"></div>
+      </div>
+    </div>
+
+    <div class="card" >
+      <div class="top">
+        <span class="label">Client retention</span>
+        <span class="value">92%</span>
+      </div>
+      <div class="track">
+        <div class="progress"></div>
+      </div>
+    </div>
+
+    <div class="card" >
+      <div class="top">
+        <span class="label">Code review coverage</span>
+        <span class="value">100%</span>
+      </div>
+      <div class="track">
+        <div class="progress"></div>
+      </div>
+    </div>
+
+    <div class="card" >
+      <div class="top">
+        <span class="label">Production uptime</span>
+        <span class="value">99.9%</span>
+      </div>
+      <div class="track">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero-last">
+  <div class="banner">
+    <h2 class="headline">Let's find out what's actually running in your stack.</h2>
+    <p class="sub">Most audits turn up at least one surprise. Book a free 30-minute infrastructure review — no sales pitch, just findings.</p>
+    <a href="#" class="btn">Book your review →</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="name">
+      <h1>Alto Tech</h1>
+      <p class="tagline">Full-stack product studio — from idea to production, with one team.</p>
+    </div>
+    <div class="col">
+      <div class="footertitle">Company</div>
+      <div class="footerlinks">
+        <a href="#"  class="text-decoration-none text-secondary">Home</a>
+        <a href="#process"  class="text-decoration-none text-secondary">Process</a>
+        <a href="#"  class="text-decoration-none text-secondary">Careers</a>
+        <a href="#"  class="text-decoration-none text-secondary">Contact</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="footertitle">Services</div>
+      <div class="footerlinks list-unstyled">
+        <a href="#services" class="text-decoration-none text-secondary">Product Engineering</a>
+        <a href="#services"  class="text-decoration-none text-secondary">API & Integrations</a>
+        <a href="#services"  class="text-decoration-none text-secondary">Cloud Infrastructure</a>
+        <a href="#services"  class="text-decoration-none text-secondary">Design & Strategy</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="footertitle">Connect</div>
+      <div class="footerlinks">
+        <a href="#"  class="text-decoration-none text-secondary">Twitter / X</a>
+        <a href="#"  class="text-decoration-none text-secondary">LinkedIn</a>
+        <a href="#"  class="text-decoration-none text-secondary">GitHub</a>
+        <a href="mailto:hello@alto.tech"  class="text-decoration-none text-secondary">hello@alto.tech</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
